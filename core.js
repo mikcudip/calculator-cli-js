@@ -96,7 +96,7 @@ function operacion(opcion) {
 function main() {
   resultado = operacion(menu());
   console.log(`El resultado es: ${resultado}`);
-  let otraOperacion = parseInt(prompt("Desea realizar otra operacion?\nSi=1 | No=Presione cualquier otra tecla"));
+  let otraOperacion = parseInt(prompt("Desea realizar otra operacion?\nSi=1 | No=Presione cualquier otra tecla: "));
   (otraOperacion == 1) ? main() : console.log("Good Bye ;)");
 }
 
